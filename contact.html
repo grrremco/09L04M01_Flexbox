@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> contact </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+      <div class="container">
+        <header class="header-1">
+          <h1>Mijn eerste website</h1>
+        </header> 
+
+        <nav class="nav-1">
+          <ul>
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="about.html" class="link">Over mij</a></li>
+            <li><a href="blog.html" class="link">Blog</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <main>
+            <div>
+            <h3>
+                Neem contact met mij op
+            </h3>
+                   
+              <form action="/action_contact.html" name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label class="label">naam: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label class="label">email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label class="label">telnr.: <input type="tel" name="tel" /></label>   
+                </p>
+                <p>
+                  <label class="label">leeftijd: <input type="number" name="number" /></label>   
+                </p>
+                <p>
+                  <label class="label">geboorte datum: <input type="date" name="date" /></label>   
+                </p>
+                <p>
+                  <label class="label"> <input type="radio" name="radio" value="male" />M</label> 
+                  <label class="label"> <input type="radio" name="radio" value="female"/>V</label>  
+                </p>
+                <p>
+                  <label class="label">Favoriete cuisine</label><br>
+                  <label class="label"> <input type="checkbox" name="checkbox" value="Frans"/>Frans</label><br> 
+                  <label class="label"> <input type="checkbox" name="checkbox" value="Italiaans"/>Italiaans</label><br>  
+                  <label class="label"> <input type="checkbox" name="checkbox" value="Spaans"/>Spaans</label><br>  
+                  <label class="label"> <input type="checkbox" name="checkbox" value="Arabisch"/>Arabisch</label><br>  
+                </p>
+                <p>
+                  <label class="label">favoriete kleur short:<br><input type="color" name="color" /></label>   
+                </p>
+                <p>
+                  <label class="label">biografie: <br><textarea rows="10" cols="40" name="message"></textarea></label>
+                </p>
+                <p>
+                  <label class="label">upload je laatste recept: <input type="file" name="file" /></label>   
+                </p>
+                <p>
+                  <label class="label">url naar je recepten website: <input type="url" name="url" /></label>   
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                  <button type="reset">Reset</button>
+                </p>
+              </form>
+            </div>
+        </main>
+
+        <footer>
+            <hr>
+            <h6 class= "footer" >copyright © 2020 by quibus</h6>        
+        </footer>
+        </div>
+    </body>
+
+</html>

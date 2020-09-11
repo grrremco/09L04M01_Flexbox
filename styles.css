@@ -1,0 +1,241 @@
+body {
+    background-color: #e7d3e0;
+}
+
+.container {
+    width:80%;
+    margin:auto;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #258c81;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525e8f;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525e8f;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525e8f;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Bookman Old Style", serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #5c5c5d;
+}
+
+img.photo {
+	border: 2px solid #258c81;
+	background-color: #fcfcfc;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+  }
+
+.ol {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #5c5c5d;
+    list-style-type: none;
+    padding: 1px 10px;
+}
+
+.ol li {
+    display: block;
+}
+
+.link {
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #aa6065;
+}
+li a:hover {
+    color: #f8cd02;
+  }
+
+.oy {
+    font: bold 16px Arial, Helvetica, sans-serif;
+    color: #aa6065;
+}
+.footer {
+    font: bold 12px "Bookman Old Style", serif;
+    color: #aa6065;
+}
+
+.header-1 {
+    background-color: #f8cd02;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.nav-1 {
+    background-color: #cee7e9;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.nav-1 a {
+    display: inline;
+    text-align: center;
+    padding: 6px 10px;
+}
+
+.nav-1 a:hover {
+    background-color: #aa6065;
+    color: #f8cd02;
+}
+
+.box-1 {
+    background-color: #ffffff;
+    border: 5px #5c5c5d;
+    padding: 1px 20px;
+    margin-top: 40px;
+}
+
+.box-2 {
+    border: 2px dotted #5c5c5d;
+    padding: 1px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box-3 {
+    background-color: #cee7e9;
+    border: 5px #5c5c5d;
+    padding: 1px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525e8f;
+}
+
+.alert {
+    font: bold 24px Arial, Helvetica, sans-serif;
+    color: red
+}
+
+.blogposts {
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.blogpost_01 {
+    width: 200px; 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    order: 0;
+    flex-grow: 1;
+}
+.blogpost_02 {
+    width: 200px; 
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px;
+    order: 02;
+    flex-grow: 1;
+}
+.blogpost_03 {
+    width: 200px; 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    order: 01;
+    flex-grow: 4;
+    align-self: center;
+}
+.blogpost_04 {
+    width: 200px; 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    order: 04;
+    flex-grow: 1;
+}
+.blogpost_05 {
+    width: 200px; 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    order: 03;
+    flex-grow: 4;
+    align-self: flex-end;
+}
+
+@media (max-width: 480px) {
+    
+    p {
+        font-size: 18px;
+        line-height: 1.4em;
+        color: #3f5148;
+    }
+    .link {
+        font-size: 14px;
+    }
+    .oy {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #a6cfba;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.6em;
+        color: #4b0766;
+    }
+    .link {
+        font-size: 11px;
+    }
+    .oy {
+        font-size: 14px;
+    }
+    .ol {
+        font-size: 16px;
+    }
+
+}
